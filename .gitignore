@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+__pycache__
+
+lightning_logs
+/data
+
+mnist_data
+samples
+
+output
