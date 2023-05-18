@@ -1,5 +1,8 @@
+# Cold PAWS: Unsupervised class discovery and the cold-start problem -- repository to reproduce SimCLR pretraining, finetuning and PAWS results
 
-# Cold PAWS: repository to reproduce SimCLR pretraining, finetuning and PAWS results
+This is pytorch code for fitting the models from the [paper](https://arxiv.org/abs/2305.10071). For the label selection strategy code see [this repo](https://github.com/emannix/cold-paws-labelling-selection-strategies).
+
+---
 
 To train the SimCLR model on CIFAR10, run
 
@@ -21,7 +24,8 @@ To write the SimCLR encodings to file for this pretrained model, run
 python main.py --config config/miscdata_small_pyz_finetune_simclr_nodist_writedata.py
 ```
 
-# Using labelled subsets
+---
+# Using particular labelled subsets
 
 In the indices folder, we have some example input files for selecting small labelled subsets for training.
 
