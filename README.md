@@ -26,7 +26,7 @@ python main.py --config config/miscdata_small_pyz_finetune_simclr_nodist_writeda
 ```
 
 ---
-# Using particular labelled subsets
+### Using particular labelled subsets
 
 In the indices folder, we have some example input files for selecting small labelled subsets for training.
 
