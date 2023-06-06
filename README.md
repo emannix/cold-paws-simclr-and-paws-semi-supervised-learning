@@ -1,4 +1,4 @@
-# Cold PAWS: Unsupervised class discovery and the cold-start problem 
+# Cold PAWS: Unsupervised class discovery and addressing the cold-start problem for semi-supervised learning 
 ## Repository to reproduce SimCLR pretraining, finetuning and PAWS results
 
 This is the pytorch code for fitting the models from the [paper](https://arxiv.org/abs/2305.10071). For the label selection strategy code see [this repo](https://github.com/emannix/cold-paws-labelling-selection-strategies).
